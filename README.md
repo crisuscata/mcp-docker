@@ -1,6 +1,6 @@
 # 🚀 MCP Starter Kit: Tu primer Agente con Docker y Python
 
-Este repositorio contiene el código fuente oficial del video de **Joaquin Ruiz Lite**: ["Necesitas aprender MCP, ya vas tarde"](TU_LINK_DEL_VIDEO_AQUI).
+Este repositorio contiene el código fuente oficial del video de **Joaquin Ruiz Lite**: ["Si no usas MCP, tu IA está incompleta (Docker Toolkit + Python)"](https://youtu.be/fsyJK6KngXk?si=2MyCdO6WNCliIp9b).
 
 Aquí encontrarás un ejemplo práctico y minimalista de cómo crear un **Servidor MCP (Model Context Protocol)** desde cero, dockerizarlo y conectarlo a **Claude Desktop**.
 
