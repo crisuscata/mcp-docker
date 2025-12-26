@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "d12-roller": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",           
+        "--rm",
+        "mcp-d12"
+      ]
+    }
+  }
+}
