@@ -89,6 +89,7 @@ Version mas completa con el tutorial pasado, y no olvides eliminar procesos de c
     }
   }
 }
+```
 
 ### 4. ¡A probar!
 Reinicia Claude Desktop. Verás un icono de un enchufe 🔌 o un martillo 🔨 indicando que las herramientas están cargadas. Prueba con el prompt:
