@@ -60,6 +60,36 @@ Añade el siguiente bloque dentro de mcpServers:
 ```
 Nota de Ingeniero: El flag -i es crucial porque MCP utiliza stdio (entrada/salida estándar) para comunicarse con el contenedor.
 
+Version mas completa con el tutorial pasado, y no olvides eliminar procesos de claude y abrir nuevamente
+
+```json
+{
+  "mcpServers": {
+    "MCP_DOCKER": {
+      "command": "docker",
+      "args": [
+        "mcp",
+        "gateway",
+        "run"
+      ],
+      "env": {
+        "LOCALAPPDATA": "C:\\Users\\Usuario\\AppData\\Local",
+        "ProgramData": "C:\\ProgramData",
+        "ProgramFiles": "C:\\Program Files"
+      }
+    },
+    "d12-roller": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "mcp-d12"
+      ]
+    }
+  }
+}
+
 ### 4. ¡A probar!
 Reinicia Claude Desktop. Verás un icono de un enchufe 🔌 o un martillo 🔨 indicando que las herramientas están cargadas. Prueba con el prompt:
 
